@@ -8,5 +8,7 @@ var colore = prompt('inserisci Colore Preferito');
 console.log(colore);
 
 var somma = nome + cognome + colore + '21';
-document.getElementById('parole').innerHTML = somma;
+document.getElementById('parole').innerHTML = somma.toLowerCase();
 console.log(somma);
+document.getElementById("parole").style.color = "lightblue";
+
